@@ -1,0 +1,36 @@
+{
+  "name": "av-poc-core",
+  "version": "1.0.0",
+  "description": "the awesome package",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "keywords": [
+    "poc",
+    "core"
+  ],
+  "author": "Architecture Team at Avec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avec/poccore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avec/poccore/issues"
+  },
+  "homepage": "https://github.com/avec/poccore#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "stathis-core": "^1.0.65"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
